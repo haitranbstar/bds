@@ -40,8 +40,8 @@ Table Of Index
 
 
 *{margin:0; padding:0;}
-body{font-family: 'Open Sans', sans-serif; overflow-x: hidden;}
-h1, h2, h3, h4, h5, h6{font-family: 'Poppins', sans-serif;}
+body{font-family: "Times New Roman", Times, serif; overflow-x: hidden;}
+h1, h2, h3, h4, h5, h6{font-family: "Times New Roman", Times, serif;}
 
 a{-webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease;}
 ul, ol{list-style:none;}
@@ -575,11 +575,11 @@ a.slidebtn i{margin-left:10px;}
 .property_box h3 a{text-decoration: none; font-size: 20px; color: #000; font-weight: normal;}
 .property_box h3 a:hover{color: #00bb27;}
 .property_location i{padding-right: 6px; font-size: 14px; color: #b7b7b7;}
-.property_location{font-size: 14px; color:#b9b9b9;}
-.heart_info{display: flex; margin-top: 15px;}
+.property_location{font-size: 14px; color:#666;}
+.heart_info{display: flex; margin-bottom: 15px;}
 .heart_icon{margin-right: 5px;}
 .heart_icon a{font-size: 14px; color: #a5a5a5; width: 30px; display: block; text-align: center; line-height: 30px; height: 30px; border: 1px solid #f0efef; background: #f9f9f9;}
-.property_price{font-size: 20px; color: #00bb27; font-weight: bold; margin-left: 15px;}
+.property_price{font-size: 20px; color: #00bb27; font-weight: bold; }
 .propert_info{text-align: center; margin-top: 15px; border: 1px solid #efefef; padding: 7px;}
 .propert_info h5{font-size: 12px; margin-bottom: 0; font-family: 'Open Sans', sans-serif; color: #000; margin-top: 5px;}
 .propert_info ul li{position: relative;}
@@ -1910,3 +1910,43 @@ section.our_team_wrap .team_member{margin-bottom: 70px; margin-left: auto; margi
     }
 }
 
+.news-default-right{
+    /* border: 1px solid #e5e8f3; */
+    /* padding: 30px 28px 35px; */
+    margin: 0 0 40px;
+}
+
+.news-default-right ul li a {
+    font: normal 14px/20px tahoma;
+    color: #444;
+    padding: 3px 0 3px 12px;
+    display: block;
+    background: url('../images/icon_butlet.png') no-repeat 0 10px;
+    min-height: 40px;
+}
+
+.news-default-right ul li {
+    border-bottom: 1px solid #dedede;
+    padding: 7px 0;
+}
+
+.single-widgets .title02 {
+    height: 25px;
+    border-bottom: 1px solid #37a344;
+    background: url(../images/icon-most-read.png) no-repeat;
+    padding: 1px 0 0 39px;
+    font-family: Arial;
+}
+
+.single-widgets .title02 h3 {
+    font-family: 'Roboto Condensed' !important;
+    text-transform: uppercase;
+    color: #016098;
+    font-size: 18px;
+}
+
+.property_box h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
