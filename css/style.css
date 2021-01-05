@@ -1949,4 +1949,131 @@ section.our_team_wrap .team_member{margin-bottom: 70px; margin-left: auto; margi
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-  }
+}
+
+
+.box-new-first .hvhathuc {
+    max-height: 305px;
+}
+
+.img {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    border: 0;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic;
+}
+
+.item-5 {
+    float: left;
+    width: 100%;
+    background: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.item-5.owl-item .comment {
+    text-align: left;
+    width: 100%;
+    position: relative;
+    font-family: "Roboto";
+    font-weight: 700;
+    right: auto;
+    left: 0px;
+    top: auto;
+    padding: 5px 10px;
+    background: #ffffff;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.item-5.owl-item .comment h4 {
+    margin-top: 0px;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 4px;
+    height: auto;
+}
+
+a img {
+    text-decoration: none;
+}
+
+.item-5 .comment h4 {
+    margin-top: 0px;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.box-itt .txt-comment {
+    font-weight: normal;
+    text-align: justify;
+    margin: 0 0 10px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.box-itt .time {
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 3px;
+}
+
+.item-5 .comment {
+    text-align: left;
+    width: 100%;
+    position: relative;
+    font-family: "Roboto";
+    font-weight: 700;
+    right: auto;
+    left: 0px;
+    top: auto;
+    padding: 10px 10px;
+    background: #ffffff;
+    display: inline-block;
+}
+
+.outsite-xemthem {
+    margin-top: 15px;
+    border-radius: 6px;
+    padding: 2px;
+    display: inline-flex;
+    background: linear-gradient(to right,rgb(102, 205, 170) 0,rgb(58, 121, 100) 0,rgba(100, 201, 239, 0.8) 100%);
+}
+
+.outsite-xemthem a {
+    color: #333;
+    font-size: 16px;
+    overflow: hidden;
+    padding: 5px 28px;
+    background: #fff;
+    position: relative;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition: color 1000ms;
+    transition: color 1000ms;
+}
+
+@media only screen and (max-width: 450px) {
+    .item-5 .hvhathuc {
+        width: 100%!important;
+        float: none!important;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .item-5 .comment {
+        width: 100%!important;
+        float: none!important;
+    }
+}
+
+  
